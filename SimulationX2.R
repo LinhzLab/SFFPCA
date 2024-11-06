@@ -4,7 +4,13 @@ setwd(parent_path)
 
 library("fda")
 library("Matrix")
-load("SimulationX2_mu.RData")
+load("SimulationX2_mu1.RData")
+load("SimulationX2_mu2.RData")
+load("SimulationX2_mu3.RData")
+X <- array(0,c(803, 95, 101))
+X[1:300, , ] <- X1
+X[301:600, , ] <- X2
+X[601:803, , ] <- X3
 X_all <- X
 n <- 403
 n_test <- 400
