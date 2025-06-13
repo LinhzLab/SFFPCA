@@ -1,0 +1,16 @@
+
+Please see our paper for model details:
+
+Shoudao Wen, Yi Li, Dehan Kong and Huazhen Lin∗. (2025+) Prediction of Cognitive Function via Brain Region Volumes with Applications to Alzheimer’s Disease Based on Space-Factor-Guided Functional Principal Component Analysis. 
+Journal of the American Statistical Association, Online. DOI: 10.1080/01621459.2025.2479220
+
+
+
+
+SFFPCA.R: The R code of the proposed method.
+
+README.docx: Including the information about how the analytic dataset is derived from ADNI and the detailed description of the reproducibility workflow.
+
+README.Rmd: R Markdown document, which provides some wrapper R code to runs the code for reproducibility workflow.
+
+Other files: R codes and the detailed description is in README.docx and README.Rmd.
